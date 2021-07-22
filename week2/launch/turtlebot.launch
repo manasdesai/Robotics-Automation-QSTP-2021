@@ -1,0 +1,5 @@
+<launch>
+<node name="radius_pub_node" pkg="week2" type="radius_publisher.py" output="screen" />
+<node name="ang_vel_service_node" pkg="week2" type="Ang_vel_service.py" output="screen" />
+<node name="turtlebot_handle_node" pkg="week2" type="turtlebot_handle.py" output="screen" />
+</launch>
