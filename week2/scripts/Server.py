@@ -41,5 +41,5 @@ def return_traj_server():
     rospy.spin()
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     return_traj_server()
