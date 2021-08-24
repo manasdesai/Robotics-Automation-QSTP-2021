@@ -25,7 +25,7 @@ def return_path_message(PATH):
 if __name__ == "__main__":
     rospy.init_node("path_publisher")
     rospy.loginfo("Path Publisher Started. Check out Paths in topics path1, path2, path3")
-    rate = rospy.Rate(10)
+    rate = rospy.Rate(5)
 
     # start three publishers for paths
     path_pub1 = rospy.Publisher("/path1", Path, queue_size=10)
