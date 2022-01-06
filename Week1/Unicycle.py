@@ -72,17 +72,17 @@ class Unicycle:
 if __name__ == "__main__":
     print("Unicycle Model Assignment")
     Object1=Unicycle(0,0,0,.1)
-    Final_pose1=Object1.step(1,.5,25)
+    Final_poses1=Object1.step(1,.5,25)
     Object1.plot(1,.5)
-    print("The final pose for 1 is:   ",Final_pose1)
+    print("The final pose for 1 is:   ",Final_poses1)
     Object2=Unicycle(0,0,1.57,.2)
-    Final_pose2=Object2.step(.5,1,10)
+    Final_poses2=Object2.step(.5,1,10)
     Object2.plot(.5,1)
-    print("The final pose of 2 is:   ",Final_pose2)
+    print("The final pose of 2 is:   ",Final_poses2)
     Object3=Unicycle(0,0,0.77,.05)
-    Final_pose3=Object3.step(5,4,50)
+    Final_poses3=Object3.step(5,4,50)
     Object3.plot(5,4)
-    print("The final pose of 3 is:   ",Final_pose3)      
+    print("The final pose of 3 is:   ",Final_poses3)      
           
 
     # make an object of the robot and plot various trajectories
